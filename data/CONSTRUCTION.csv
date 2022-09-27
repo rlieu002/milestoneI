@@ -1,0 +1,742 @@
+﻿DATE,TYPE,CONSTRUCTION SPEND
+2002-01-01,Total Construction,59516
+2002-01-01,Residential,25972
+2002-01-01,Nonresidential,33545
+2002-02-01,Total Construction,58588
+2002-02-01,Residential,25721
+2002-02-01,Nonresidential,32868
+2002-03-01,Total Construction,63782
+2002-03-01,Residential,29826
+2002-03-01,Nonresidential,33956
+2002-04-01,Total Construction,69504
+2002-04-01,Residential,33008
+2002-04-01,Nonresidential,36496
+2002-05-01,Total Construction,73384
+2002-05-01,Residential,35059
+2002-05-01,Nonresidential,38325
+2002-06-01,Total Construction,77182
+2002-06-01,Residential,37908
+2002-06-01,Nonresidential,39273
+2002-07-01,Total Construction,78863
+2002-07-01,Residential,38880
+2002-07-01,Nonresidential,39983
+2002-08-01,Total Construction,79460
+2002-08-01,Residential,38359
+2002-08-01,Nonresidential,41101
+2002-09-01,Total Construction,76542
+2002-09-01,Residential,36082
+2002-09-01,Nonresidential,40460
+2002-10-01,Total Construction,75710
+2002-10-01,Residential,36226
+2002-10-01,Nonresidential,39484
+2002-11-01,Total Construction,71362
+2002-11-01,Residential,34570
+2002-11-01,Nonresidential,36792
+2002-12-01,Total Construction,63984
+2002-12-01,Residential,30352
+2002-12-01,Nonresidential,33632
+2003-01-01,Total Construction,59877
+2003-01-01,Residential,28794
+2003-01-01,Nonresidential,31083
+2003-02-01,Total Construction,58526
+2003-02-01,Residential,28015
+2003-02-01,Nonresidential,30511
+2003-03-01,Total Construction,64506
+2003-03-01,Residential,32176
+2003-03-01,Nonresidential,32330
+2003-04-01,Total Construction,69638
+2003-04-01,Residential,34739
+2003-04-01,Nonresidential,34899
+2003-05-01,Total Construction,74473
+2003-05-01,Residential,37169
+2003-05-01,Nonresidential,37304
+2003-06-01,Total Construction,80377
+2003-06-01,Residential,40408
+2003-06-01,Nonresidential,39969
+2003-07-01,Total Construction,82971
+2003-07-01,Residential,43048
+2003-07-01,Nonresidential,39923
+2003-08-01,Total Construction,85191
+2003-08-01,Residential,43671
+2003-08-01,Nonresidential,41520
+2003-09-01,Total Construction,83841
+2003-09-01,Residential,41846
+2003-09-01,Nonresidential,41995
+2003-10-01,Total Construction,83133
+2003-10-01,Residential,42798
+2003-10-01,Nonresidential,40336
+2003-11-01,Total Construction,77915
+2003-11-01,Residential,41530
+2003-11-01,Nonresidential,36385
+2003-12-01,Total Construction,71050
+2003-12-01,Residential,37059
+2003-12-01,Nonresidential,33991
+2004-01-01,Total Construction,64934
+2004-01-01,Residential,34112
+2004-01-01,Nonresidential,30822
+2004-02-01,Total Construction,64138
+2004-02-01,Residential,33451
+2004-02-01,Nonresidential,30688
+2004-03-01,Total Construction,73238
+2004-03-01,Residential,39395
+2004-03-01,Nonresidential,33843
+2004-04-01,Total Construction,78354
+2004-04-01,Residential,42264
+2004-04-01,Nonresidential,36089
+2004-05-01,Total Construction,83736
+2004-05-01,Residential,45976
+2004-05-01,Nonresidential,37759
+2004-06-01,Total Construction,89932
+2004-06-01,Residential,49245
+2004-06-01,Nonresidential,40687
+2004-07-01,Total Construction,93614
+2004-07-01,Residential,52065
+2004-07-01,Nonresidential,41549
+2004-08-01,Total Construction,96164
+2004-08-01,Residential,53427
+2004-08-01,Nonresidential,42738
+2004-09-01,Total Construction,92538
+2004-09-01,Residential,49850
+2004-09-01,Nonresidential,42688
+2004-10-01,Total Construction,90582
+2004-10-01,Residential,49831
+2004-10-01,Nonresidential,40751
+2004-11-01,Total Construction,86394
+2004-11-01,Residential,46988
+2004-11-01,Nonresidential,39406
+2004-12-01,Total Construction,77733
+2004-12-01,Residential,41806
+2004-12-01,Nonresidential,35928
+2005-01-01,Total Construction,72458
+2005-01-01,Residential,39584
+2005-01-01,Nonresidential,32874
+2005-02-01,Total Construction,73094
+2005-02-01,Residential,39828
+2005-02-01,Nonresidential,33266
+2005-03-01,Total Construction,81791
+2005-03-01,Residential,45962
+2005-03-01,Nonresidential,35829
+2005-04-01,Total Construction,88032
+2005-04-01,Residential,49906
+2005-04-01,Nonresidential,38125
+2005-05-01,Total Construction,93704
+2005-05-01,Residential,52580
+2005-05-01,Nonresidential,41125
+2005-06-01,Total Construction,100678
+2005-06-01,Residential,56941
+2005-06-01,Nonresidential,43738
+2005-07-01,Total Construction,103875
+2005-07-01,Residential,60026
+2005-07-01,Nonresidential,43850
+2005-08-01,Total Construction,107453
+2005-08-01,Residential,61377
+2005-08-01,Nonresidential,46076
+2005-09-01,Total Construction,104682
+2005-09-01,Residential,58829
+2005-09-01,Nonresidential,45853
+2005-10-01,Total Construction,104039
+2005-10-01,Residential,59799
+2005-10-01,Nonresidential,44240
+2005-11-01,Total Construction,98348
+2005-11-01,Residential,55939
+2005-11-01,Nonresidential,42409
+2005-12-01,Total Construction,88657
+2005-12-01,Residential,49412
+2005-12-01,Nonresidential,39245
+2006-01-01,Total Construction,82400
+2006-01-01,Residential,46016
+2006-01-01,Nonresidential,36383
+2006-02-01,Total Construction,82381
+2006-02-01,Residential,45647
+2006-02-01,Nonresidential,36734
+2006-03-01,Total Construction,92354
+2006-03-01,Residential,52192
+2006-03-01,Nonresidential,40162
+2006-04-01,Total Construction,97056
+2006-04-01,Residential,54544
+2006-04-01,Nonresidential,42512
+2006-05-01,Total Construction,101862
+2006-05-01,Residential,55564
+2006-05-01,Nonresidential,46297
+2006-06-01,Total Construction,106777
+2006-06-01,Residential,56924
+2006-06-01,Nonresidential,49854
+2006-07-01,Total Construction,107150
+2006-07-01,Residential,57289
+2006-07-01,Nonresidential,49861
+2006-08-01,Total Construction,108598
+2006-08-01,Residential,56489
+2006-08-01,Nonresidential,52110
+2006-09-01,Total Construction,103102
+2006-09-01,Residential,52193
+2006-09-01,Nonresidential,50909
+2006-10-01,Total Construction,100721
+2006-10-01,Residential,51075
+2006-10-01,Nonresidential,49647
+2006-11-01,Total Construction,93850
+2006-11-01,Residential,45842
+2006-11-01,Nonresidential,48009
+2006-12-01,Total Construction,85031
+2006-12-01,Residential,40100
+2006-12-01,Nonresidential,44931
+2007-01-01,Total Construction,79009
+2007-01-01,Residential,36794
+2007-01-01,Nonresidential,42215
+2007-02-01,Total Construction,78501
+2007-02-01,Residential,35889
+2007-02-01,Nonresidential,42611
+2007-03-01,Total Construction,87421
+2007-03-01,Residential,41096
+2007-03-01,Nonresidential,46325
+2007-04-01,Total Construction,93644
+2007-04-01,Residential,44144
+2007-04-01,Nonresidential,49500
+2007-05-01,Total Construction,99690
+2007-05-01,Residential,45233
+2007-05-01,Nonresidential,54457
+2007-06-01,Total Construction,105020
+2007-06-01,Residential,47152
+2007-06-01,Nonresidential,57868
+2007-07-01,Total Construction,106779
+2007-07-01,Residential,47952
+2007-07-01,Nonresidential,58828
+2007-08-01,Total Construction,109573
+2007-08-01,Residential,47101
+2007-08-01,Nonresidential,62472
+2007-09-01,Total Construction,104744
+2007-09-01,Residential,42668
+2007-09-01,Nonresidential,62075
+2007-10-01,Total Construction,104313
+2007-10-01,Residential,41444
+2007-10-01,Nonresidential,62870
+2007-11-01,Total Construction,94934
+2007-11-01,Residential,35974
+2007-11-01,Nonresidential,58960
+2007-12-01,Total Construction,84325
+2007-12-01,Residential,30621
+2007-12-01,Nonresidential,53703
+2008-01-01,Total Construction,78039
+2008-01-01,Residential,27607
+2008-01-01,Nonresidential,50432
+2008-02-01,Total Construction,77921
+2008-02-01,Residential,26736
+2008-02-01,Nonresidential,51184
+2008-03-01,Total Construction,83384
+2008-03-01,Residential,30033
+2008-03-01,Nonresidential,53351
+2008-04-01,Total Construction,89092
+2008-04-01,Residential,32313
+2008-04-01,Nonresidential,56778
+2008-05-01,Total Construction,93316
+2008-05-01,Residential,33213
+2008-05-01,Nonresidential,60103
+2008-06-01,Total Construction,97882
+2008-06-01,Residential,34818
+2008-06-01,Nonresidential,63065
+2008-07-01,Total Construction,100234
+2008-07-01,Residential,35452
+2008-07-01,Nonresidential,64782
+2008-08-01,Total Construction,100366
+2008-08-01,Residential,35076
+2008-08-01,Nonresidential,65290
+2008-09-01,Total Construction,97303
+2008-09-01,Residential,31938
+2008-09-01,Nonresidential,65365
+2008-10-01,Total Construction,96609
+2008-10-01,Residential,31486
+2008-10-01,Nonresidential,65123
+2008-11-01,Total Construction,86093
+2008-11-01,Residential,26080
+2008-11-01,Nonresidential,60013
+2008-12-01,Total Construction,77112
+2008-12-01,Residential,21909
+2008-12-01,Nonresidential,55204
+2009-01-01,Total Construction,67736
+2009-01-01,Residential,19492
+2009-01-01,Nonresidential,48245
+2009-02-01,Total Construction,67479
+2009-02-01,Residential,18365
+2009-02-01,Nonresidential,49115
+2009-03-01,Total Construction,72448
+2009-03-01,Residential,19779
+2009-03-01,Nonresidential,52669
+2009-04-01,Total Construction,75500
+2009-04-01,Residential,20960
+2009-04-01,Nonresidential,54540
+2009-05-01,Total Construction,77225
+2009-05-01,Residential,20979
+2009-05-01,Nonresidential,56246
+2009-06-01,Total Construction,82575
+2009-06-01,Residential,22634
+2009-06-01,Nonresidential,59941
+2009-07-01,Total Construction,84351
+2009-07-01,Residential,24033
+2009-07-01,Nonresidential,60319
+2009-08-01,Total Construction,84876
+2009-08-01,Residential,25208
+2009-08-01,Nonresidential,59668
+2009-09-01,Total Construction,82442
+2009-09-01,Residential,24172
+2009-09-01,Nonresidential,58270
+2009-10-01,Total Construction,80337
+2009-10-01,Residential,24787
+2009-10-01,Nonresidential,55550
+2009-11-01,Total Construction,71882
+2009-11-01,Residential,21261
+2009-11-01,Nonresidential,50621
+2009-12-01,Total Construction,64916
+2009-12-01,Residential,19097
+2009-12-01,Nonresidential,45819
+2010-01-01,Total Construction,55647
+2010-01-01,Residential,17320
+2010-01-01,Nonresidential,38328
+2010-02-01,Total Construction,55268
+2010-02-01,Residential,17120
+2010-02-01,Nonresidential,38148
+2010-03-01,Total Construction,61274
+2010-03-01,Residential,19576
+2010-03-01,Nonresidential,41698
+2010-04-01,Total Construction,66834
+2010-04-01,Residential,21937
+2010-04-01,Nonresidential,44898
+2010-05-01,Total Construction,69280
+2010-05-01,Residential,22605
+2010-05-01,Nonresidential,46675
+2010-06-01,Total Construction,75182
+2010-06-01,Residential,24171
+2010-06-01,Nonresidential,51012
+2010-07-01,Total Construction,74277
+2010-07-01,Residential,24170
+2010-07-01,Nonresidential,50107
+2010-08-01,Total Construction,76889
+2010-08-01,Residential,24344
+2010-08-01,Nonresidential,52545
+2010-09-01,Total Construction,76142
+2010-09-01,Residential,23169
+2010-09-01,Nonresidential,52973
+2010-10-01,Total Construction,73666
+2010-10-01,Residential,23543
+2010-10-01,Nonresidential,50124
+2010-11-01,Total Construction,67608
+2010-11-01,Residential,20087
+2010-11-01,Nonresidential,47521
+2010-12-01,Total Construction,60898
+2010-12-01,Residential,17997
+2010-12-01,Nonresidential,42901
+2011-01-01,Total Construction,51208
+2011-01-01,Residential,16512
+2011-01-01,Nonresidential,34696
+2011-02-01,Total Construction,51232
+2011-02-01,Residential,16241
+2011-02-01,Nonresidential,34991
+2011-03-01,Total Construction,57374
+2011-03-01,Residential,18787
+2011-03-01,Nonresidential,38587
+2011-04-01,Total Construction,61806
+2011-04-01,Residential,21113
+2011-04-01,Nonresidential,40693
+2011-05-01,Total Construction,65689
+2011-05-01,Residential,21992
+2011-05-01,Nonresidential,43698
+2011-06-01,Total Construction,72754
+2011-06-01,Residential,23754
+2011-06-01,Nonresidential,49000
+2011-07-01,Total Construction,72513
+2011-07-01,Residential,24201
+2011-07-01,Nonresidential,48312
+2011-08-01,Total Construction,77261
+2011-08-01,Residential,25254
+2011-08-01,Nonresidential,52006
+2011-09-01,Total Construction,76121
+2011-09-01,Residential,24072
+2011-09-01,Nonresidential,52050
+2011-10-01,Total Construction,74042
+2011-10-01,Residential,24482
+2011-10-01,Nonresidential,49560
+2011-11-01,Total Construction,68444
+2011-11-01,Residential,20609
+2011-11-01,Nonresidential,47835
+2011-12-01,Total Construction,62794
+2011-12-01,Residential,18534
+2011-12-01,Nonresidential,44260
+2012-01-01,Total Construction,56833
+2012-01-01,Residential,17123
+2012-01-01,Nonresidential,39710
+2012-02-01,Total Construction,57226
+2012-02-01,Residential,16935
+2012-02-01,Nonresidential,40291
+2012-03-01,Total Construction,62056
+2012-03-01,Residential,19556
+2012-03-01,Nonresidential,42500
+2012-04-01,Total Construction,67283
+2012-04-01,Residential,22019
+2012-04-01,Nonresidential,45265
+2012-05-01,Total Construction,72523
+2012-05-01,Residential,23418
+2012-05-01,Nonresidential,49106
+2012-06-01,Total Construction,77908
+2012-06-01,Residential,25404
+2012-06-01,Nonresidential,52504
+2012-07-01,Total Construction,78650
+2012-07-01,Residential,26157
+2012-07-01,Nonresidential,52493
+2012-08-01,Total Construction,81516
+2012-08-01,Residential,27299
+2012-08-01,Nonresidential,54217
+2012-09-01,Total Construction,79783
+2012-09-01,Residential,26880
+2012-09-01,Nonresidential,52903
+2012-10-01,Total Construction,80703
+2012-10-01,Residential,28187
+2012-10-01,Nonresidential,52516
+2012-11-01,Total Construction,73495
+2012-11-01,Residential,24761
+2012-11-01,Nonresidential,48734
+2012-12-01,Total Construction,66427
+2012-12-01,Residential,22265
+2012-12-01,Nonresidential,44162
+2013-01-01,Total Construction,59372
+2013-01-01,Residential,20810
+2013-01-01,Nonresidential,38562
+2013-02-01,Total Construction,59462
+2013-02-01,Residential,20701
+2013-02-01,Nonresidential,38761
+2013-03-01,Total Construction,64790
+2013-03-01,Residential,24330
+2013-03-01,Nonresidential,40460
+2013-04-01,Total Construction,71250
+2013-04-01,Residential,26828
+2013-04-01,Nonresidential,44421
+2013-05-01,Total Construction,76461
+2013-05-01,Residential,28508
+2013-05-01,Nonresidential,47953
+2013-06-01,Total Construction,81693
+2013-06-01,Residential,30330
+2013-06-01,Nonresidential,51362
+2013-07-01,Total Construction,85069
+2013-07-01,Residential,31277
+2013-07-01,Nonresidential,53792
+2013-08-01,Total Construction,87533
+2013-08-01,Residential,32142
+2013-08-01,Nonresidential,55390
+2013-09-01,Total Construction,86544
+2013-09-01,Residential,31666
+2013-09-01,Nonresidential,54878
+2013-10-01,Total Construction,87305
+2013-10-01,Residential,32681
+2013-10-01,Nonresidential,54623
+2013-11-01,Total Construction,80470
+2013-11-01,Residential,29375
+2013-11-01,Nonresidential,51096
+2013-12-01,Total Construction,74635
+2013-12-01,Residential,26827
+2013-12-01,Nonresidential,47808
+2014-01-01,Total Construction,68096
+2014-01-01,Residential,25052
+2014-01-01,Nonresidential,43044
+2014-02-01,Total Construction,67638
+2014-02-01,Residential,24458
+2014-02-01,Nonresidential,43181
+2014-03-01,Total Construction,74653
+2014-03-01,Residential,28980
+2014-03-01,Nonresidential,45673
+2014-04-01,Total Construction,81575
+2014-04-01,Residential,31683
+2014-04-01,Nonresidential,49892
+2014-05-01,Total Construction,86368
+2014-05-01,Residential,33301
+2014-05-01,Nonresidential,53067
+2014-06-01,Total Construction,91505
+2014-06-01,Residential,34771
+2014-06-01,Nonresidential,56735
+2014-07-01,Total Construction,93381
+2014-07-01,Residential,35173
+2014-07-01,Nonresidential,58208
+2014-08-01,Total Construction,94100
+2014-08-01,Residential,35182
+2014-08-01,Nonresidential,58919
+2014-09-01,Total Construction,94062
+2014-09-01,Residential,35290
+2014-09-01,Nonresidential,58771
+2014-10-01,Total Construction,95774
+2014-10-01,Residential,35897
+2014-10-01,Nonresidential,59877
+2014-11-01,Total Construction,87118
+2014-11-01,Residential,32687
+2014-11-01,Nonresidential,54431
+2014-12-01,Total Construction,81022
+2014-12-01,Residential,30055
+2014-12-01,Nonresidential,50967
+2015-01-01,Total Construction,73805
+2015-01-01,Residential,27894
+2015-01-01,Nonresidential,45911
+2015-02-01,Total Construction,74458
+2015-02-01,Residential,28107
+2015-02-01,Nonresidential,46351
+2015-03-01,Total Construction,83636
+2015-03-01,Residential,32916
+2015-03-01,Nonresidential,50721
+2015-04-01,Total Construction,91430
+2015-04-01,Residential,35344
+2015-04-01,Nonresidential,56086
+2015-05-01,Total Construction,97990
+2015-05-01,Residential,37558
+2015-05-01,Nonresidential,60431
+2015-06-01,Total Construction,106361
+2015-06-01,Residential,40507
+2015-06-01,Nonresidential,65854
+2015-07-01,Total Construction,107129
+2015-07-01,Residential,41529
+2015-07-01,Nonresidential,65600
+2015-08-01,Total Construction,108165
+2015-08-01,Residential,41120
+2015-08-01,Nonresidential,67045
+2015-09-01,Total Construction,107262
+2015-09-01,Residential,41028
+2015-09-01,Nonresidential,66234
+2015-10-01,Total Construction,104814
+2015-10-01,Residential,41249
+2015-10-01,Nonresidential,63565
+2015-11-01,Total Construction,96166
+2015-11-01,Residential,37513
+2015-11-01,Nonresidential,58653
+2015-12-01,Total Construction,88947
+2015-12-01,Residential,33932
+2015-12-01,Nonresidential,55014
+2016-01-01,Total Construction,80828
+2016-01-01,Residential,31406
+2016-01-01,Nonresidential,49422
+2016-02-01,Total Construction,83269
+2016-02-01,Residential,32158
+2016-02-01,Nonresidential,51111
+2016-03-01,Total Construction,92932
+2016-03-01,Residential,38010
+2016-03-01,Nonresidential,54922
+2016-04-01,Total Construction,97523
+2016-04-01,Residential,39671
+2016-04-01,Nonresidential,57852
+2016-05-01,Total Construction,103477
+2016-05-01,Residential,41414
+2016-05-01,Nonresidential,62063
+2016-06-01,Total Construction,111877
+2016-06-01,Residential,44048
+2016-06-01,Nonresidential,67829
+2016-07-01,Total Construction,111775
+2016-07-01,Residential,44687
+2016-07-01,Nonresidential,67088
+2016-08-01,Total Construction,113814
+2016-08-01,Residential,44918
+2016-08-01,Nonresidential,68896
+2016-09-01,Total Construction,112703
+2016-09-01,Residential,43895
+2016-09-01,Nonresidential,68808
+2016-10-01,Total Construction,111728
+2016-10-01,Residential,45210
+2016-10-01,Nonresidential,66518
+2016-11-01,Total Construction,106538
+2016-11-01,Residential,42498
+2016-11-01,Nonresidential,64040
+2016-12-01,Total Construction,97209
+2016-12-01,Residential,38050
+2016-12-01,Nonresidential,59159
+2017-01-01,Total Construction,87395
+2017-01-01,Residential,35171
+2017-01-01,Nonresidential,52224
+2017-02-01,Total Construction,89404
+2017-02-01,Residential,36893
+2017-02-01,Nonresidential,52512
+2017-03-01,Total Construction,99300
+2017-03-01,Residential,42911
+2017-03-01,Nonresidential,56389
+2017-04-01,Total Construction,103437
+2017-04-01,Residential,45115
+2017-04-01,Nonresidential,58322
+2017-05-01,Total Construction,111213
+2017-05-01,Residential,47528
+2017-05-01,Nonresidential,63685
+2017-06-01,Total Construction,116270
+2017-06-01,Residential,49703
+2017-06-01,Nonresidential,66567
+2017-07-01,Total Construction,116873
+2017-07-01,Residential,50844
+2017-07-01,Nonresidential,66028
+2017-08-01,Total Construction,117941
+2017-08-01,Residential,50550
+2017-08-01,Nonresidential,67391
+2017-09-01,Total Construction,115692
+2017-09-01,Residential,49318
+2017-09-01,Nonresidential,66374
+2017-10-01,Total Construction,114206
+2017-10-01,Residential,48572
+2017-10-01,Nonresidential,65633
+2017-11-01,Total Construction,109340
+2017-11-01,Residential,47534
+2017-11-01,Nonresidential,61806
+2017-12-01,Total Construction,98770
+2017-12-01,Residential,41614
+2017-12-01,Nonresidential,57156
+2018-01-01,Total Construction,93933
+2018-01-01,Residential,39533
+2018-01-01,Nonresidential,54400
+2018-02-01,Total Construction,95693
+2018-02-01,Residential,40206
+2018-02-01,Nonresidential,55487
+2018-03-01,Total Construction,105159
+2018-03-01,Residential,46549
+2018-03-01,Nonresidential,58610
+2018-04-01,Total Construction,110800
+2018-04-01,Residential,48558
+2018-04-01,Nonresidential,62243
+2018-05-01,Total Construction,117944
+2018-05-01,Residential,51001
+2018-05-01,Nonresidential,66943
+2018-06-01,Total Construction,121653
+2018-06-01,Residential,52343
+2018-06-01,Nonresidential,69310
+2018-07-01,Total Construction,122236
+2018-07-01,Residential,52305
+2018-07-01,Nonresidential,69931
+2018-08-01,Total Construction,124058
+2018-08-01,Residential,51460
+2018-08-01,Nonresidential,72598
+2018-09-01,Total Construction,119254
+2018-09-01,Residential,49867
+2018-09-01,Nonresidential,69387
+2018-10-01,Total Construction,116517
+2018-10-01,Residential,48099
+2018-10-01,Nonresidential,68418
+2018-11-01,Total Construction,108740
+2018-11-01,Residential,45765
+2018-11-01,Nonresidential,62976
+2018-12-01,Total Construction,97197
+2018-12-01,Residential,38193
+2018-12-01,Nonresidential,59004
+2019-01-01,Total Construction,91891
+2019-01-01,Residential,36478
+2019-01-01,Nonresidential,55414
+2019-02-01,Total Construction,92904
+2019-02-01,Residential,36286
+2019-02-01,Nonresidential,56618
+2019-03-01,Total Construction,102949
+2019-03-01,Residential,42109
+2019-03-01,Nonresidential,60840
+2019-04-01,Total Construction,110679
+2019-04-01,Residential,44243
+2019-04-01,Nonresidential,66436
+2019-05-01,Total Construction,117997
+2019-05-01,Residential,46640
+2019-05-01,Nonresidential,71357
+2019-06-01,Total Construction,124634
+2019-06-01,Residential,49568
+2019-06-01,Nonresidential,75066
+2019-07-01,Total Construction,129454
+2019-07-01,Residential,51667
+2019-07-01,Nonresidential,77788
+2019-08-01,Total Construction,131619
+2019-08-01,Residential,52559
+2019-08-01,Nonresidential,79060
+2019-09-01,Total Construction,129383
+2019-09-01,Residential,51172
+2019-09-01,Nonresidential,78211
+2019-10-01,Total Construction,127326
+2019-10-01,Residential,50600
+2019-10-01,Nonresidential,76727
+2019-11-01,Total Construction,121672
+2019-11-01,Residential,49107
+2019-11-01,Nonresidential,72565
+2019-12-01,Total Construction,110530
+2019-12-01,Residential,43014
+2019-12-01,Nonresidential,67516
+2020-01-01,Total Construction,106218
+2020-01-01,Residential,42275
+2020-01-01,Nonresidential,63943
+2020-02-01,Total Construction,107295
+2020-02-01,Residential,42854
+2020-02-01,Nonresidential,64441
+2020-03-01,Total Construction,117793
+2020-03-01,Residential,50442
+2020-03-01,Nonresidential,67351
+2020-04-01,Total Construction,119926
+2020-04-01,Residential,50667
+2020-04-01,Nonresidential,69259
+2020-05-01,Total Construction,125114
+2020-05-01,Residential,51957
+2020-05-01,Nonresidential,73156
+2020-06-01,Total Construction,132608
+2020-06-01,Residential,54793
+2020-06-01,Nonresidential,77815
+2020-07-01,Total Construction,135287
+2020-07-01,Residential,57489
+2020-07-01,Nonresidential,77799
+2020-08-01,Total Construction,137555
+2020-08-01,Residential,60523
+2020-08-01,Nonresidential,77032
+2020-09-01,Total Construction,136354
+2020-09-01,Residential,60154
+2020-09-01,Nonresidential,76200
+2020-10-01,Total Construction,135012
+2020-10-01,Residential,60604
+2020-10-01,Nonresidential,74408
+2020-11-01,Total Construction,128438
+2020-11-01,Residential,59253
+2020-11-01,Nonresidential,69185
+2020-12-01,Total Construction,117970
+2020-12-01,Residential,53246
+2020-12-01,Nonresidential,64724
+2021-01-01,Total Construction,112093
+2021-01-01,Residential,52270
+2021-01-01,Nonresidential,59823
+2021-02-01,Total Construction,110731
+2021-02-01,Residential,51671
+2021-02-01,Nonresidential,59061
+2021-03-01,Total Construction,125788
+2021-03-01,Residential,61747
+2021-03-01,Nonresidential,64041
+2021-04-01,Total Construction,131634
+2021-04-01,Residential,64898
+2021-04-01,Nonresidential,66736
+2021-05-01,Total Construction,138744
+2021-05-01,Residential,68662
+2021-05-01,Nonresidential,70083
+2021-06-01,Total Construction,147024
+2021-06-01,Residential,73034
+2021-06-01,Nonresidential,73990
+2021-07-01,Total Construction,149164
+2021-07-01,Residential,74538
+2021-07-01,Nonresidential,74625
+2021-08-01,Total Construction,152194
+2021-08-01,Residential,76752
+2021-08-01,Nonresidential,75442
+2021-09-01,Total Construction,148275
+2021-09-01,Residential,74437
+2021-09-01,Nonresidential,73838
+2021-10-01,Total Construction,145182
+2021-10-01,Residential,72920
+2021-10-01,Nonresidential,72261
+2021-11-01,Total Construction,138993
+2021-11-01,Residential,69717
+2021-11-01,Nonresidential,69277
+2021-12-01,Total Construction,126622
+2021-12-01,Residential,62289
+2021-12-01,Nonresidential,64333
+2022-01-01,Total Construction,122435
+2022-01-01,Residential,62662
+2022-01-01,Nonresidential,59772
+2022-02-01,Total Construction,123700
+2022-02-01,Residential,63208
+2022-02-01,Nonresidential,60492
+2022-03-01,Total Construction,140560
+2022-03-01,Residential,75874
+2022-03-01,Nonresidential,64686
+2022-04-01,Total Construction,147248
+2022-04-01,Residential,79518
+2022-04-01,Nonresidential,67730
+2022-05-01,Total Construction,155883
+2022-05-01,Residential,84433
+2022-05-01,Nonresidential,71451
+2022-06-01,Total Construction,162267
+2022-06-01,Residential,86381
+2022-06-01,Nonresidential,75886
+2022-07-01,Total Construction,161645
+2022-07-01,Residential,85388
+2022-07-01,Nonresidential,76257
