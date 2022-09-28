@@ -33,11 +33,10 @@ def get_combined_df(df_list, months):
         
         combined_df = df if combined_df is None else combined_df.merge(df, on='DATE', how='outer')
         
-    combined_df = combined_df.melt(id_vars=['DATE'],var_name='INDEX')
-        
     return combined_df
 
 df_combined = get_combined_df([cpi_data, pce_data, savings_data, credit_data, unemployment_data], 60)
+df_combined = df_combined.melt(id_vars=['DATE'],var_name='INDEX')
 
 print(df_combined.head())
 
