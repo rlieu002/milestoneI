@@ -47,6 +47,11 @@ line = alt.Chart(df_combined).mark_line().encode(
     color='INDEX',
 )
 
+line_interest = alt.Chart(interest_data).mark_line().encode(
+    x='DATE',
+    y=alt.Y('INTEREST', title='value'),
+)
+
 point = alt.Chart(interest_data).mark_point(size=50).encode(
     x='DATE',
     y=alt.Y('INTEREST', title='value'),
