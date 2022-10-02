@@ -36,24 +36,30 @@ def get_combined_df(df_list, months):
     return combined_df
 
 df_combined = get_combined_df([cpi_data, pce_data, savings_data, credit_data, unemployment_data], 60)
+df_combined = df_combined.rename(columns={'CPIAUCSL':'CPI', 'PSAVERT':'Savings', 'REVOLSL':'Revolving Credit', 'UNRATE':'Unemployment'})
 df_combined = df_combined.melt(id_vars=['DATE'],var_name='INDEX')
 
-print(df_combined.head())
+def get_indicator_chart():
+    line = alt.Chart(df_combined).mark_line().encode(
+        x='DATE',
+        y='value',
+        color='INDEX',
+    )
 
-line = alt.Chart(df_combined).mark_line().encode(
-    x='DATE',
-    y='value',
-    color='INDEX',
-)
+    line_interest = alt.Chart(interest_data[2:]).mark_line(color='#000000').encode(
+        x='DATE',
+        y=alt.Y('INTEREST', title='value'),
+    )
 
-line_interest = alt.Chart(interest_data).mark_line().encode(
-    x='DATE',
-    y=alt.Y('INTEREST', title='value'),
-)
+    point = alt.Chart(interest_data[2:]).mark_point(size=50).encode(
+        x='DATE',
+        y=alt.Y('INTEREST', title='value'),
+    )
 
-point = alt.Chart(interest_data).mark_point(size=50).encode(
-    x='DATE',
-    y=alt.Y('INTEREST', title='value'),
-)
+    chart = (line + line_interest + point).properties(
+        width=800,
+        title='Economic Indicators (Normalized, Except Interest)'
+    )
+    return chart
 
-line + point
+get_indicator_chart()
