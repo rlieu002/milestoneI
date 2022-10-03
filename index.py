@@ -62,4 +62,5 @@ def get_indicator_chart():
     )
     return chart
 
-get_indicator_chart()
+indicator_chart = get_indicator_chart()
+indicator_chart
