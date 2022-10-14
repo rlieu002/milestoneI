@@ -4,8 +4,9 @@ import streamlit as st
 print("The pandas version we used is {v}".format(v = pd.__version__))
 print("The altair version we used is {v}".format(v = alt.__version__))
 
+st.markdown("# Inflation and Its Components")
+
 st.markdown("""
-### Inflation and Its Components
 ##### SIADS 593 - Fall 2022
 
 This notebook presents a systematic analysis of the components of inflation in the United States during the trailing 5 years.
