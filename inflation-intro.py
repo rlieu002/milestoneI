@@ -98,17 +98,17 @@ for df in dfs:
 
 
 
-st.dataframe(cpi_all.head(15)) # Quick spot check looks correct
+st.dataframe(cpi_all.tail(20)) # Quick spot check looks correct
 
 st.markdown("""
 Spot checking our results we can see that the MoM and YoY figures are accurate and populated as expected (i.e. no MoM for the first observation, no YoY for the first 11 observations). We've successfully engineered our first features on these datasets! Now let's put them to use...
 
 ### Basics on Inflation
-We start by visualizing the all-up inflation YoY rates for the prior 60 months. This gives us an initiatl sense of how total inflation has been trending in the United States. We'll layer on top of that a few key events that can begin to help us understand what has been happening.
+We start by visualizing the all-up inflation YoY rates for the prior 48 months. This gives us an initiatl sense of how total inflation has been trending in the United States. We'll layer on top of that a few key events that can begin to help us understand what has been happening.
 """)
 
 
-all_chart_yoy = alt.Chart(cpi_all.tail(60), title = 'All Up Inflation (CPI)').mark_line(color = 'blue'
+all_chart_yoy = alt.Chart(cpi_all.tail(48), title = 'All Up Inflation (CPI)').mark_line(color = 'blue'
 ).encode(
         x = alt.X('DATE:T', axis = alt.Axis(title = 'Date', format = ("%b %Y"))),
         y = 'YoY Inflation %_CPIAUCSL',
@@ -139,13 +139,13 @@ Join the sub-component dataframes, and rename the YoY values accordingly
 dfs = [cpi_foodbev, cpi_housing, cpi_apparel, cpi_transport, cpi_medical, cpi_recreation, cpi_education, cpi_other]
 
 
-working_df = cpi_foodbev.iloc[:,[0,5]].tail(60).merge(cpi_housing.iloc[:,[0,5]].tail(60), on = 'DATE')
-working_df = working_df.merge(cpi_apparel.iloc[:,[0,5]].tail(60), on = 'DATE')
-working_df = working_df.merge(cpi_transport.iloc[:,[0,5]].tail(60), on = 'DATE')
-working_df = working_df.merge(cpi_medical.iloc[:,[0,5]].tail(60), on = 'DATE')
-working_df = working_df.merge(cpi_recreation.iloc[:,[0,5]].tail(60), on = 'DATE')
-working_df = working_df.merge(cpi_education.iloc[:,[0,5]].tail(60), on = 'DATE')
-working_df = working_df.merge(cpi_other.iloc[:,[0,5]].tail(60), on = 'DATE')
+working_df = cpi_foodbev.iloc[:,[0,5]].tail(48).merge(cpi_housing.iloc[:,[0,5]].tail(48), on = 'DATE')
+working_df = working_df.merge(cpi_apparel.iloc[:,[0,5]].tail(48), on = 'DATE')
+working_df = working_df.merge(cpi_transport.iloc[:,[0,5]].tail(48), on = 'DATE')
+working_df = working_df.merge(cpi_medical.iloc[:,[0,5]].tail(48), on = 'DATE')
+working_df = working_df.merge(cpi_recreation.iloc[:,[0,5]].tail(48), on = 'DATE')
+working_df = working_df.merge(cpi_education.iloc[:,[0,5]].tail(48), on = 'DATE')
+working_df = working_df.merge(cpi_other.iloc[:,[0,5]].tail(48), on = 'DATE')
 
 
 working_df = working_df.rename(columns={working_df.columns[1]: "Food Bev",
@@ -170,7 +170,9 @@ subcomponent_chart_yoy = alt.Chart(sub_components_df, title = 'CPI Components Yo
         tooltip = ['Date:T','value','Component']
 ).properties(width = 800, height = 400).interactive()
 
-subcomponent_chart_yoy
+target_inflation_line = alt.Chart(pd.DataFrame({'y': [2]})).mark_rule(color = 'green', size = 4,strokeDash=[4,4]).encode(y='y')
+
+subcomponent_chart_yoy + target_inflation_line
 
 st.markdown("""
 Now we can begin to see various different trends that contribute to the overall inflation behavior. Picking the most notable components:
