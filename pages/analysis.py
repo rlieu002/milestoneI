@@ -25,8 +25,6 @@ unemployment_data = pd.read_csv('./data/UNRATE.csv')
 # FED FUND RATE: interest rate (https://fred.stlouisfed.org/series/DFEDTARU)
 interest_data = pd.read_csv('./data/DFEDTARU.csv')
 
-st.dataframe(interest_data.head(2))
-
 def normalize_col(df, col_name):
     mean = df.mean().loc[col_name]  
     std = df.std().loc[col_name]
@@ -68,7 +66,7 @@ df_CPI_PCE['DATE'] = pd.to_datetime(df_CPI_PCE['DATE'])
 df_CPI_PCE = df_CPI_PCE[df_CPI_PCE['DATE'] >= '2020-08-01']
 
 st.dataframe(df_CPI_PCE.head())
-df_CPI_PCE.dtypes
+# df_CPI_PCE.dtypes
 # CPI vs PCE dataframe
 df_CPI_PCE = get_combined_df_norm([cpi_data, pce_data], 48)
 df_CPI_PCE = df_CPI_PCE.rename(columns={'CPIAUCSL':'CPI'})
@@ -105,7 +103,7 @@ cpi_pce_corr_text = alt.Chart({'values':[{}]}).mark_text(
            'subtitle':'A 2-Year Metric Comparison'})
 
 st.markdown("""
-### Inflation')
+### Inflation
 
 Causes of Inflation: https://news.stanford.edu/2022/09/06/what-causes-inflation/
 """)
@@ -137,12 +135,13 @@ inflation_text = inflation_line.mark_text(align='center',fontSize=11,dy=-10).enc
         text=alt.Text('YoY_inflation_perc:Q', format='.1f')) 
 
 # Combine
-(inflation_line+inflation_text).properties(
+combined_chart = (inflation_line+inflation_text).properties(
     width=900, 
     height=250,
-    title={'text':'Inflation Causal Relationship Analysis',
+    title={'text':'Inflation Relationship Analysis',
            'fontSize':18}
 )
+combined_chart
 # Inflation Inducing Events
 
 # COVID
@@ -160,7 +159,7 @@ covid_lines = alt.Chart(line_events_df).mark_rule(color='gray', size=2).encode(
     x = 'Date:T')
 line_events_df.sort_values('Date')
 line_events_df['y1'] = 0
-line_events_df['y2'] = 10
+line_events_df['y2'] = 0.4
 line_events_df['x2'] = ['2020-03-01','2020-04-01','2020-12-01','2021-03-01','2022-08-01']
 
 covid_area = alt.Chart(line_events_df).mark_rect(fill='lightgray',opacity=0.3).encode(
@@ -170,7 +169,7 @@ covid_area = alt.Chart(line_events_df).mark_rect(fill='lightgray',opacity=0.3).e
     y2='y2',
 )
 
-st.markdown('### Personal Savings Rate & Revolving Credit')
+st.markdown('### Personal Savings Rate')
 # Savings dataframe
 df_SAV = get_combined_df([savings_data], 48)
 df_SAV = df_SAV.rename(columns={'PSAVERT':'Savings'})
@@ -198,23 +197,15 @@ savings_text = savings_bar.mark_text(
     dy=-10,  # Nudges text to right so it doesn't appear on top of the bar
 ).encode(text=alt.Text('Savings:Q', format='0.0%'))
 
-line_events_df.sort_values('Date')
-line_events_df['y1'] = 0
-line_events_df['y2'] = .4
-line_events_df['x2'] = ['2020-03-01','2020-04-01','2020-12-01','2021-03-01','2022-08-01']
-
-covid_area = alt.Chart(line_events_df).mark_rect(fill='lightgray',opacity=0.3).encode(
-    x='Date:T',
-    x2='x2',
-    y='y1',
-    y2='y2',
-)
-
-(savings_bar+savings_text+savings_12_line+covid_lines+covid_area).properties(
+savings_chart = (savings_bar+savings_text+savings_12_line+covid_lines+covid_area).properties(
     width=800, 
     height=225,
     title={'text':'U.S. Personal Savings Rate & 12-Month Average', 'fontSize':14})
-interest_data.head()
+savings_chart
+
+st.markdown('### Interest Rate')
+
+st.dataframe(interest_data.head())
 # Fed Fund Rate
 df_INT = interest_data
 df_INT['DATE'] = pd.to_datetime(df_INT['DATE'])
@@ -224,27 +215,30 @@ df_INT = df_INT[df_INT['DATE'] <= '2022-08-01']
 
 # Dataframe melted
 df_INT = df_INT.melt(id_vars=['DATE'],var_name='INDEX')
-df_INT.head()
+st.dataframe(df_INT.head())
 interest_line = alt.Chart(df_INT).mark_line(color='green').encode(
     x=alt.X('DATE:T', title=None),
     y=alt.Y('value:Q', title=None, scale=alt.Scale(domain=[0, 10]))
 )
-
 interest_line
-(inflation_line+inflation_text+interest_line).properties(
-    width=900, 
-    height=250,
-    title={'text':'Inflation Causal Relationship Analysis',
-           'fontSize':18}
+
+line_events_df['y2_2'] = 10
+
+covid_area2 = alt.Chart(line_events_df).mark_rect(fill='lightgray',opacity=0.3).encode(
+    x='Date:T',
+    x2='x2',
+    y='y1',
+    y2='y2_2',
 )
 # Russia-Ukraine war
 war_line_events = {'Russia Ukraine War':'2022-02-24'}
 war_line_events_df = pd.DataFrame(war_line_events.items(), columns=['Event', 'Date'])
 war_lines = alt.Chart(war_line_events_df).mark_rule(color='red', size=2).encode(
     x = 'Date:T')
-(inflation_line+inflation_text+interest_line+covid_lines+covid_area+war_lines).properties(
+all_chart = (inflation_line+inflation_text+interest_line+covid_lines+covid_area2+war_lines).properties(
     width=900, 
     height=250,
-    title={'text':'Inflation Causal Relationship Analysis',
+    title={'text':'Inflation Relationship Analysis',
            'fontSize':18}
 )
+all_chart
