@@ -4,7 +4,9 @@
 ## Inflation's impact on US consumer behavior (spending, credit usage, savings, etc.)  
 
 
-View on [Streamlit](https://rlieu002-milestonei-index-4fbixl.streamlitapp.com/)
+View on: 
+- [Streamlit](https://rlieu002-milestonei-index-4fbixl.streamlitapp.com/)
+- [Deepnote](https://deepnote.com/workspace/milestonei-1718-e97dd873-3dfa-452c-ad11-2e190d190593/project/Team-Project-d4e15c74-6173-42e1-9532-632717f41fb2/%2FmilestoneI%2Finflation-intro.ipynb)
 
 To run Python files in a Jupyter notebook, use `%run <file_name>.py`
 
